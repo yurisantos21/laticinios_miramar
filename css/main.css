@@ -3,7 +3,7 @@
 }
 
 .navbar-brand {
-	font-size: 2em;
+	font-size: 1.1em;
 }
 
 .navbar-brand span {
@@ -19,6 +19,11 @@
 
 .titulo {
 	font-family: lobster, cursive;
+}
+
+.container-carousel{
+	margin: auto;
+	max-width: 720px;
 }
 
 .social-links {
