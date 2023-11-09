@@ -16,7 +16,7 @@
 </head>
 <body>
 	<header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
-		<div class="container">
+		<div class="container-xxl">
 			<h1 class="navbar-brand m-0  fw-bold">Laticínios <span class="fw-bold">Miramar</span></h1>
 			<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
 				<span class="navbar-toggler-icon"></span>
@@ -52,31 +52,33 @@
 		</div>
 	</header>
 	<div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
-		<section id="sobre">
+		<div class="container-carousel">
 			<div class="carousel slide" data-bs-ride="carousel" id="carousel">
-			<div class="carousel-inner center-block">
-				<div class="carousel-item active" data-bs-interval="3000">
-				<img src="./img/slides/slide1.png" class="w-100" alt="frente da loja">
+				<div class="carousel-inner center-block">
+					<div class="carousel-item active" data-bs-interval="3000">
+					<img src="./img/slides/slide1.png" class="w-100" alt="frente da loja">
+					</div>
+					<div class="carousel-item" data-bs-interval="3000">
+						<img src="./img/slides/slide2.png" class="w-100" alt="produtos diversos na prateleira">
+					</div>
+					<div class="carousel-item" data-bs-interval="3000">
+						<img src="./img/slides/slide3.png" class="w-100" alt="vidros de doce na prateleira">
+					</div>
 				</div>
-				<div class="carousel-item" data-bs-interval="3000">
-					<img src="./img/slides/slide2.png" class="w-100" alt="produtos diversos na prateleira">
+				<button class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</button>
+				<button class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</button>
+				<div class="carousel-indicators">
+					<button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+					<button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+					<button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
 				</div>
-				<div class="carousel-item" data-bs-interval="3000">
-					<img src="./img/slides/slide3.png" class="w-100" alt="vidros de doce na prateleira">
-				</div>
-			</div>
-			<button class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
-				<span class="carousel-control-prev-icon"></span>
-			</button>
-			<button class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
-				<span class="carousel-control-next-icon"></span>
-			</button>
-			<div class="carousel-indicators">
-				<button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
-				<button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
-				<button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
-			</div>
 		</div>
+		</div>
+		<section id="sobre">
 		<div class="pt-5 pb-5">
 			<div class="container">
 				<div class="row">
